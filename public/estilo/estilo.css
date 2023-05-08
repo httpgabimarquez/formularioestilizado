@@ -1,0 +1,41 @@
+h1{
+background-color:#D3D3D3; 
+    color: black;
+    text-align: center;
+}
+
+form{
+text-align: center;
+border: none;
+
+}
+input{
+    width: 260px;
+    height: 35px;
+    border-left:lavender ;
+    border-top:lavender;
+    border-right: lavender;
+}
+
+input[type=text] {
+    
+    color: white;
+  }
+
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  
+submit{
+    border-radius: 120%;
+}
+body{
+    background-color:#DCDCDC;
+     font-family:cursive;
+     
+
+}
+#cadastrar{
+  grid-template-columns: auto auto auto;
+  gap:50;
+}
