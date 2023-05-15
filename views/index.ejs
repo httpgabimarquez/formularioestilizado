@@ -12,6 +12,10 @@
     <div id='cadastrar'>
     <% pessoas.forEach((pessoa) => { %>
        <div> <%= pessoa.nome %> </div>
+       <div> <%= pessoa.sobrenome %> </div>
+       <div> <%= pessoa.idade %> </div>
+       <div> <%= pessoa.altura %> </div>
+       <a href="/pessoas/deletar?id=<%=pessoa.id%>">Deletar</a>
     <% }) %>
 </div>
 </body>
